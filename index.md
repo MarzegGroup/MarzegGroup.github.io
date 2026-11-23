@@ -1,9 +1,6 @@
 # Girlies Grab & Go
-
-Premium vending solutions across Kent.
-
-## Our Services
-
+Welcome to the website.
+We provide the following.
 - Beauty vending machines
 - Snack vending machines
 - Corporate locations
