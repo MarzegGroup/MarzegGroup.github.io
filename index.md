@@ -7,8 +7,8 @@ Premium vending solutions across Kent.
 
 ## Welcome
 
-We provide beauty, snack and convenience vending machines for businesses, events and public locations.
+Girlies Grab & Go is a bespoke vending model focused on providing premium beauty and haircare items, supported by selected snacks and refreshments, in environments where convenience, presentation, and customer experience matter. 
 
 ## Contact
 
-Get in touch to discuss locations and partnerships.
+Get in touch with Marzeggroupmail.com to discuss locations and partnerships.
