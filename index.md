@@ -1,7 +1,3 @@
-
-title: # Home
----
-
 # Girlies Grab & Go
 
 Premium vending solutions across Kent.
