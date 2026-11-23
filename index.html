@@ -22,7 +22,12 @@ line-height:1.6;
 }
 
 .hero{
-background:linear-gradient(135deg,#fff8fb,#fde9f1,#ffffff);
+background:linear-gradient(
+135deg,
+#fff9fb,
+#fde8f1,
+#ffffff
+);
 padding:80px 20px;
 text-align:center;
 }
@@ -33,8 +38,8 @@ margin-bottom:25px;
 }
 
 .hero h1{
+font-size:4.5rem;
 font-family:Georgia,serif;
-font-size:4rem;
 margin-bottom:20px;
 }
 
@@ -46,24 +51,35 @@ color:#666;
 }
 
 .hero-image{
-margin-top:50px;
 width:100%;
 max-width:550px;
+margin-top:50px;
 border-radius:30px;
 box-shadow:0 20px 50px rgba(0,0,0,0.15);
 }
 
+.button{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:black;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:bold;
+}
+
 .section{
-padding:90px 20px;
+padding:100px 20px;
 max-width:1200px;
 margin:auto;
 }
 
-.section h2{
+.section-title{
 text-align:center;
 font-size:3rem;
-margin-bottom:50px;
 font-family:Georgia,serif;
+margin-bottom:50px;
 }
 
 .features{
@@ -73,7 +89,7 @@ gap:25px;
 }
 
 .feature{
-background:#fff4f8;
+background:#fff5f9;
 padding:35px;
 border-radius:25px;
 }
@@ -84,7 +100,7 @@ margin-bottom:10px;
 
 .gallery{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 gap:30px;
 }
 
@@ -95,21 +111,21 @@ box-shadow:0 10px 30px rgba(0,0,0,0.1);
 }
 
 .luxury{
-background:black;
+background:#111;
 color:white;
-padding:100px 20px;
 text-align:center;
+padding:100px 20px;
 }
 
 .luxury h2{
-font-family:Georgia,serif;
 font-size:3rem;
+font-family:Georgia,serif;
 margin-bottom:20px;
 }
 
 .contact{
-background:#fff7fa;
-padding:90px 20px;
+background:#fff8fb;
+padding:100px 20px;
 }
 
 form{
@@ -122,8 +138,9 @@ textarea{
 width:100%;
 padding:18px;
 margin-bottom:15px;
-border:1px solid #ddd;
 border-radius:15px;
+border:1px solid #ddd;
+font-size:16px;
 }
 
 button{
@@ -133,8 +150,8 @@ background:black;
 color:white;
 border:none;
 border-radius:15px;
-font-size:16px;
 cursor:pointer;
+font-size:16px;
 }
 
 footer{
@@ -144,6 +161,18 @@ text-align:center;
 padding:25px;
 }
 
+@media(max-width:768px){
+
+.hero h1{
+font-size:3rem;
+}
+
+.section-title{
+font-size:2.2rem;
+}
+
+}
+
 </style>
 </head>
 
@@ -151,16 +180,22 @@ padding:25px;
 
 <section class="hero">
 
-<img src="ggg.png" class="logo" alt="Girlies Grab & Go">
+<img src="Ggg.png" class="logo" alt="Girlies Grab & Go">
 
 <h1>Girlies Grab & Go</h1>
 
 <p>
 Luxury beauty, wellness and convenience
-vending experiences designed for modern
-workplaces, residential developments,
-events and premium venues.
+vending solutions designed for premium
+venues, residential developments,
+corporate spaces and events.
 </p>
+
+<a href="#contact" class="button">
+Book A Machine
+</a>
+
+<br>
 
 <img src="full.png" class="hero-image" alt="Full Machine Design">
 
@@ -168,31 +203,33 @@ events and premium venues.
 
 <section class="section">
 
-<h2>Why Choose Us</h2>
+<h2 class="section-title">
+Why Choose Us
+</h2>
 
 <div class="features">
 
 <div class="feature">
 <h3>Luxury Design</h3>
 <p>
-Our machines are designed to complement
-premium environments and modern spaces.
+A beautifully branded vending experience
+that enhances the look and feel of any venue.
 </p>
 </div>
 
 <div class="feature">
-<h3>Beauty Essentials</h3>
+<h3>Beauty & Essentials</h3>
 <p>
-A curated range of beauty, self-care and
-convenience products available 24/7.
+Carefully selected beauty, wellness and
+everyday convenience products.
 </p>
 </div>
 
 <div class="feature">
-<h3>Stress Free Service</h3>
+<h3>Fully Managed</h3>
 <p>
-We handle stocking, support and maintenance
-so your customers always have access.
+We handle stocking, support and maintenance,
+making everything hassle free.
 </p>
 </div>
 
@@ -202,11 +239,13 @@ so your customers always have access.
 
 <section class="section">
 
-<h2>Our Machine</h2>
+<h2 class="section-title">
+Our Machine
+</h2>
 
 <div class="gallery">
 
-<img src="front.png" alt="Front View">
+<img src="Front.png" alt="Front View">
 
 <img src="side.png" alt="Side View">
 
@@ -216,28 +255,37 @@ so your customers always have access.
 
 <section class="luxury">
 
-<h2>Designed To Feel Premium</h2>
+<h2>
+Designed To Feel Premium
+</h2>
 
 <p>
-More than a vending machine. A luxury
-customer experience that elevates every space.
+More than just a vending machine.
+A modern customer experience created for
+people who appreciate convenience,
+style and quality.
 </p>
 
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
 
-<h2 style="text-align:center;margin-bottom:40px;font-family:Georgia,serif;">
-Enquire Today
+<h2 class="section-title">
+Let's Talk
 </h2>
 
 <form>
 
-<input type="text" placeholder="Your Name">
+<input
+type="text"
+placeholder="Your Name">
 
-<input type="email" placeholder="Email Address">
+<input
+type="email"
+placeholder="Email Address">
 
-<textarea rows="5"
+<textarea
+rows="5"
 placeholder="Tell us about your venue or event"></textarea>
 
 <button type="submit">
