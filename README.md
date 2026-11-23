@@ -1,2 +1,2 @@
-theme: jekyll-theme-minimal
+config.yml
 # Welcome to Girlies Grab & Go
