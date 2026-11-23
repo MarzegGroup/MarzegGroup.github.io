@@ -1,7 +1,3 @@
-# Girlies Grab & Go
-
-Welcome to our website.
----
 layout: default
 title: Home
 ---
