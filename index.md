@@ -1,11 +1,14 @@
-# Girlies Grab & Go
-Welcome to the website.
-We provide the following.
-- Beauty vending machines
-- Snack vending machines
-- Corporate locations
-- Event hire
+---
+layout: default
+title: Home
+---
 
-## Contact Us
+Premium vending solutions across Kent.
 
-info@girliesgrabandgo.co.uk
+## Welcome
+
+We provide beauty, snack and convenience vending machines for businesses, events and public locations.
+
+## Contact
+
+Get in touch to discuss locations and partnerships.
