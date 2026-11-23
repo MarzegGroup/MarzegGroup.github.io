@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Premium vending solutions across Kent.
+# Premium vending solutions across Kent.
 
 ## Welcome
 
